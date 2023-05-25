@@ -28,5 +28,5 @@ cp .env-sample .env
 (you'll still need to edit some variables, i.e., `PRIVKEY`)
 
 <p align="left">
-  <img width="350" height="150" src= "./assets/vea.avif" />
+  <img width="800" height="400" src= "./assets/vea.png" />
 </p>
