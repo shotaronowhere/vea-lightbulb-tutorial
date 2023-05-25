@@ -1,10 +1,11 @@
 {
-  "name": "vea-greeter-tutorial",
+  "name": "vea-lightbulb-tutorial",
   "license": "MIT",
   "version": "1.0.0",
   "scripts": {
     "build": "yarn hardhat compile",
-    "lightbulb": "yarn build && yarn deploy && yarn verify",
+    "lightbulb": "yarn build && yarn deploy && yarn verify && yarn ts-node",
+    "hit-switch": "yarn ts-node scripts/hit-switch.ts",
     "lightbulb:chiado": "yarn build && yarn deploy:chiado && yarn verify:chiado",
     "deploy": "yarn hardhat deploy --network goerli && yarn hardhat deploy --network arbitrumGoerli --tags switch-to-goerli",
     "deploy:chiado": "yarn hardhat deploy --network chiado && yarn hardhat deploy --network arbitrumGoerli --tags switch-to-chiado",
