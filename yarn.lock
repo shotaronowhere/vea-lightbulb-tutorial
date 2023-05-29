@@ -532,20 +532,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kleros/vea-contracts@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@kleros/vea-contracts@npm:0.3.0"
+"@kleros/vea-contracts@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "@kleros/vea-contracts@npm:0.3.2"
   dependencies:
     "@openzeppelin/contracts": ^4.8.3
-  checksum: b7b9325760c88769579f1aca20f566e479a01832ef44c1fa5cd49f6f6ef809e0e98c551bc6229f998669a72302f0288b8c2f8736cd5c0fe491fa57007451f460
+  checksum: 72775e9e6a5e00ca1590a260a65c7832fee15f6ead3a2808c05912f4a198a5a0d8bc2a213ef8d2e70e4ba7e811cbd28ec641a50d816aac49d24895994be2f3fd
   languageName: node
   linkType: hard
 
-"@kleros/vea-sdk@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "@kleros/vea-sdk@npm:0.3.0"
+"@kleros/vea-sdk@npm:^0.3.3":
+  version: 0.3.3
+  resolution: "@kleros/vea-sdk@npm:0.3.3"
   dependencies:
-    "@kleros/vea-contracts": ^0.3.0
+    "@kleros/vea-contracts": ^0.3.2
     "@logtail/pino": ^0.4.0
     "@typechain/ethers-v5": ^10.2.0
     dotenv: ^16.0.3
@@ -555,7 +555,7 @@ __metadata:
     pino-pretty: ^10.0.0
     web3: ^1.10.0
     web3-batched-send: ^1.0.3
-  checksum: 055f603e0557a083c189c00120956169729ad147059ca3f238794ea336393525bf877e04ad8d57762491925858d1f736ee5af9af582c7942b33d3cc5c421494c
+  checksum: f82d13966c8d4993500de43af83220773c63268299026b628c694d99529962a8f19a86b3ba4ccf229d4e291857c814301d0ab4553400605c13f9beac0bcf7e2a
   languageName: node
   linkType: hard
 
@@ -8063,8 +8063,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "vea-lightbulb-tutorial@workspace:."
   dependencies:
-    "@kleros/vea-contracts": ^0.3.0
-    "@kleros/vea-sdk": ^0.3.0
+    "@kleros/vea-sdk": ^0.3.3
     "@nomiclabs/hardhat-ethers": ^2.2.2
     "@nomiclabs/hardhat-etherscan": ^3.1.7
     "@typechain/ethers-v5": ^11.0.0
